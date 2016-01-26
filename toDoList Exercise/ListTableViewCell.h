@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListTableViewCell.h
 //  toDoList Exercise
 //
 //  Created by Karlo Pagtakhan on 01/26/2016.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
-
+@interface ListTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *label;
 
 @end
-
